@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
             
     /* Ciemna nakładka (overlay), by poprawić czytelność elementów na zdjęciu */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: overlay;
 }
 
