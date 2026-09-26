@@ -76,23 +76,115 @@
         </nav>
 
         <!-- Sekcja Hero -->
-                <!-- Sekcja Hero -->
+        <!-- Sekcja Hero -->
         <header class="hero-section-o-nas text-center">
             <div class="container">
                 <h2 class="text-uppercase fw-bold mb-3">Centrum Kultury Polskiej KROK ASBL</h2>
                 <h1 class="display-4 fw-bold text-warning mb-4">Kontakt</h1>
             </div>
         </header>
-        
+
         <!-- nasze działania -->
-<div class="container">
-            <h1 class="mb-3 fw-bold">Zapraszamy do kontaktu</h1>
-    <p><b>e-mail:</b> contact@krokasbl.org</p>
-    Media społecznościowe...
-    
-  
-</div>
-        
+        <div class="container">
+            <!-- Sekcja Dołącz do KROK -->
+            <section id="czlonkostwo" class="py-5 bg-white text-center">
+                <div class="container">
+                    <h2 class="mb-3 fw-bold">Zapraszamy do kontaktu</h2>
+                    <h4 class="mb-4 text-secondary">
+                        Kliknij w jeden z poniższych tematów by dowiedzieć się, jak się z nami skontaktować.
+                    </h4>
+                    <div class="row justify-content-center gap-3">
+                        <div class="col-md-3">
+                            <a href="czlonkostwo.html" class="btn btn-outline-danger w-100 py-3 fw-bold"
+                                >ZOSTAŃ CZŁONKIEM</a
+                            >
+                        </div>
+                        <div class="col-md-3">
+                            <a href="wolontariat.html" class="btn btn-outline-danger w-100 py-3 fw-bold"
+                                >ZOSTAŃ WOLONTARIUSZEM</a
+                            >
+                        </div>
+                        <div class="col-md-3">
+                            <a href="firmy-i-instytucje.html" class="btn btn-outline-danger w-100 py-3 fw-bold"
+                                >ZOSTAŃ PARTNEREM</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
+                <h2 class="mb-3 fw-bold">Kontakt e-mail</h2>
+                <p>
+                    W innych sprawach zapraszamy do kontaktu drogą <a href="mailto:contact@krokasbl.org">mailową</a>.
+                    Jeżeli link nie działa, proszę skorzystać z bezpośredniego adresu <code>contact@krokasbl.org</code>
+                </p>
+                <h2 class="mb-3 fw-bold">Media społecznościowe</h2>
+            </div>
+
+            <!-- formularz kontaktowy -->
+            <section class="py-5 bg-light container">
+                <h2 class="mb-3 fw-bold">Formularz kontaktowy</h2>
+                <p>
+                    Jesli kontaktują się Panstwo z nami jako <strong>firma lub instytucja</strong> zapraszamy do
+                    wypełnienia formularza na końcu <a href="firmy-i-instytucje.html">tej strony</a>.
+                </p>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="6259fa6f-2e80-422e-a674-3df176dcc8c4" />
+
+                    <div class="mb-3">
+                        <label for="imie_nazwisko" class="form-label">Imię i Nazwisko</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            name="name"
+                            id="imie_nazwisko"
+                            placeholder="Imię Nazwisko"
+                            required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Adres e-mail</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            name="email"
+                            id="email"
+                            placeholder="user@example.com"
+                            required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="temat" class="form-label">Temat</label>
+                        <!-- DODANO: name="temat" -->
+                        <select
+                            class="form-select"
+                            name="temat"
+                            aria-label="Default select example"
+                            id="temat"
+                            required>
+                            <option value="" disabled selected>Wybierz temat z listy...</option>
+                            <option value="Wsparcie finansowe">Wsparcie finansowe</option>
+                            <option value="Wsparcie rzeczowe">Wsparcie rzeczowe</option>
+                            <option value="Wsparcie usługą lub wiedzą">Wsparcie usługą lub wiedzą</option>
+                            <option value="Partnerstwo">Partnerstwo</option>
+                            <option value="Inne">Inne</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-text">Wiadomość:</span>
+                        <!-- DODANO: name="wiadomosc" -->
+                        <textarea class="form-control" name="wiadomosc" aria-label="With textarea" required></textarea>
+                    </div>
+
+                    <div class="mt-3">
+                        <button type="submit" class="btn btn-primary">Wyślij</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
         <!-- Stopka -->
         <footer class="bg-dark text-light py-4 text-center text-md-start">
             <div class="container">
