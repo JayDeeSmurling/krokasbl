@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KROK ASBL - Jeden krok, tysiące możliwości</title>
+    <!-- Tailwind CSS poprzez CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-50">
+
+    <!-- Nawigacja -->
+    <nav class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo / Nazwa -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="font-bold text-red-600 text-2xl tracking-tight">KROK ASBL</a>
+                </div>
+                <!-- Menu (Desktop) -->
+                <div class="hidden lg:flex space-x-6 text-sm font-semibold uppercase text-gray-600">
+                    <a href="#" class="hover:text-red-600 transition-colors">Strona Główna</a>
+                    <a href="#o-nas" class="hover:text-red-600 transition-colors">O Nas</a>
+                    <a href="#dzialania" class="hover:text-red-600 transition-colors">Nasze Działania</a>
+                    <a href="#wydarzenia" class="hover:text-red-600 transition-colors">Wydarzenia</a>
+                    <a href="#aktualnosci" class="hover:text-red-600 transition-colors">Aktualności</a>
+                    <a href="#wspolpraca" class="hover:text-red-600 transition-colors">Współpraca</a>
+                    <a href="#wolontariat" class="hover:text-red-600 transition-colors">Wolontariat</a>
+                    <a href="#czlonkostwo" class="hover:text-red-600 transition-colors">Członkostwo</a>
+                    <a href="#wesprzyj" class="text-red-600 hover:text-red-800 transition-colors">Wesprzyj KROK</a>
+                    <a href="#kontakt" class="hover:text-red-600 transition-colors">Kontakt</a>
+                </div>
+                <!-- Przycisk menu mobilnego (ukryta logika JS w tym przykładzie) -->
+                <div class="lg:hidden flex items-center">
+                    <button class="text-gray-600 hover:text-gray-900 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sekcja Hero / Pierwszy Ekran -->
+    <header class="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-center" style="background-image: url('https://via.placeholder.com/1920x1080');">
+        <!-- Ciemny overlay dla lepszej czytelności tekstu -->
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div class="relative z-10 px-4 text-white max-w-4xl mx-auto">
+            <h2 class="uppercase font-bold tracking-widest text-sm md:text-lg mb-2">Centre de la Culture Polonaise KROK ASBL</h2>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-yellow-400 mb-6 drop-shadow-lg">Jeden krok, tysiące możliwości.</h1>
+            <p class="text-lg md:text-xl mb-8 font-light leading-relaxed">Łączymy ludzi. Kultywujemy polską kulturę. Tworzymy przestrzeń dla dzieci, młodzieży i dorosłych.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#o-nas" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded font-bold uppercase tracking-wide transition-colors">Poznaj KROK</a>
+                <a href="#czlonkostwo" class="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-8 py-3 rounded font-bold uppercase tracking-wide transition-colors">Dołącz do nas</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sekcja "Kim jesteśmy?" -->
+    <section id="o-nas" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-extrabold mb-6 uppercase">Kim Jesteśmy?</h2>
+            <p class="text-xl font-medium text-gray-900 mb-4">
+                KROK to polskie stowarzyszenie działające w Belgii, którego celem jest tworzenie przestrzeni dla kultury, edukacji, integracji i aktywności społecznej.
+            </p>
+            <p class="text-gray-600 mb-8 leading-relaxed">
+                Łączymy ludzi, pomysły i doświadczenia, tworząc inicjatywy skierowane do dzieci, młodzieży, rodzin oraz całej społeczności. Chcemy, aby polska kultura była obecna, żywa i dostępna dla kolejnych pokoleń, a jednocześnie, aby KROK był miejscem spotkania i współpracy ponad granicami.
+            </p>
+            <a href="#wiecej" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded uppercase transition-colors">Dowiedz się więcej o KROK</a>
+        </div>
+    </section>
+
+    <!-- Sekcja "Co robimy?" -->
+    <section id="dzialania" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-extrabold mb-12 uppercase">Co robimy?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Kafelek 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <h5 class="text-xl font-bold mb-3 uppercase text-red-600">Kultura</h5>
+                    <p class="text-gray-600">Promujemy polską kulturę, tradycje, historię, sztukę i dziedzictwo.</p>
+                </div>
+                <!-- Kafelek 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <h5 class="text-xl font-bold mb-3 uppercase text-red-600">Edukacja</h5>
+                    <p class="text-gray-600">Tworzymy inicjatywy edukacyjne dla dzieci, młodzieży i dorosłych.</p>
+                </div>
+                <!-- Kafelek 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <h5 class="text-xl font-bold mb-3 uppercase text-red-600">Dzieci i Młodzież</h5>
+                    <p class="text-gray-600">Wspieramy rozwój młodego pokolenia i tworzymy dla niego wartościowe doświadczenia.</p>
+                </div>
+                <!-- Kafelek 4 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <h5 class="text-xl font-bold mb-3 uppercase text-red-600">Integracja</h5>
+                    <p class="text-gray-600">Budujemy relacje i przestrzeń do spotkań Polonii oraz społeczności lokalnej.</p>
+                </div>
+                <!-- Kafelek 5 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <h5 class="text-xl font-bold mb-3 uppercase text-red-600">Projekty Społeczne</h5>
+                    <p class="text-gray-600">Realizujemy projekty odpowiadające na realne potrzeby społeczności.</p>
+                </div>
+                <!-- Kafelek 6 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                    <h5 class="text-xl font-bold mb-3 uppercase text-red-600">Współpraca</h5>
+                    <p class="text-gray-600">Łączymy organizacje, przedsiębiorców, szkoły i instytucje.</p>
+                </div>
+            </div>
+            <div class="mt-12">
+                <a href="#dzialania-szczegoly" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded uppercase transition-colors">Zobacz nasze działania</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja "Dołącz do KROK" -->
+    <section id="dolacz" class="py-20 bg-white text-center">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-extrabold mb-4 uppercase">Dołącz do KROK</h2>
+            <h4 class="text-xl text-gray-500 mb-10 font-medium">Możesz zrobić z nami kolejny krok. KROK tworzą ludzie.</h4>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="#czlonkostwo" class="flex-1 border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-4 px-6 rounded uppercase transition-colors">Zostań Członkiem</a>
+                <a href="#wolontariat" class="flex-1 border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-4 px-6 rounded uppercase transition-colors">Zostań Wolontariuszem</a>
+                <a href="#wspolpraca" class="flex-1 border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold py-4 px-6 rounded uppercase transition-colors">Zostań Partnerem</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja "Wesprzyj KROK" -->
+    <section id="wesprzyj" class="py-20 bg-gray-100 text-center border-t border-b border-gray-200">
+        <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-3xl font-extrabold mb-6 uppercase">Wesprzyj KROK</h2>
+            <p class="text-lg text-gray-700 mb-8">Każde wsparcie pozwala nam tworzyć kolejne projekty, wydarzenia i inicjatywy dla naszej społeczności.</p>
+            <a href="#wsparcie-szczegoly" class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded uppercase shadow-lg transition-colors">Wesprzyj KROK</a>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 text-center md:text-left">
+                <div>
+                    <h5 class="text-white font-bold text-lg mb-2 uppercase">Centre de la Culture Polonaise KROK ASBL</h5>
+                    <p class="text-yellow-400 italic">Jeden krok, tysiące możliwości.</p>
+                </div>
+                <div class="md:text-right flex flex-col justify-center">
+                    <p class="space-x-2 text-sm mb-2">
+                        <a href="#" class="hover:text-white transition-colors">Polityka prywatności</a> <span class="text-gray-600">|</span> 
+                        <a href="#" class="hover:text-white transition-colors">Cookies</a> <span class="text-gray-600">|</span> 
+                        <a href="#" class="hover:text-white transition-colors">Informacje prawne</a>
+                    </p>
+                    <p class="text-xs text-gray-500">&copy; 2026 KROK ASBL. Wszelkie prawa zastrzeżone.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
