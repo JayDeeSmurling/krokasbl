@@ -25,3 +25,21 @@
 - [Vrijwilligerswerk](https://www.krokasbl.org/nl/wolontariat.html)
 - [Juridische informatie](https://www.krokasbl.org/nl/informacje-prawne.html)
 - [Privacybeleid](https://www.krokasbl.org/nl/polityka-prywatnosci.html)
+
+## Wersja angielska (EN)
+- [About us](https://www.krokasbl.org/EN/about-us.html)
+- [Our activities](https://www.krokasbl.org/EN/our-activities.html)
+- [Membership](https://www.krokasbl.org/EN/membership.html)
+- [Support us](https://www.krokasbl.org/EN/support-us.html)
+- [Volunteer](https://www.krokasbl.org/EN/volunteer.html)
+- [Legal](https://www.krokasbl.org/EN/legal.html
+- [Privacy policy](https://www.krokasbl.org/EN/privacy-policy.html
+
+## Wersja francuska (FR)
+- [A propos](https://www.krokasbl.org/FR/a-propos.html)
+- [nos actions](https://www.krokasbl.org/FR/nos-actions.html)
+- [adhesion](https://www.krokasbl.org/FR/adhesion.html)
+- [Soutenez](https://www.krokasbl.org/FR/soutenez.html)
+- [benevolant](https://www.krokasbl.org/FR/benevolat.html)
+- [Mentions legales](https://www.krokasbl.org/FR/mentions-legales.html)
+- [Politique de confidentialite](https://www.krokasbl.org/FR/Politique-de-confidentialite.html)

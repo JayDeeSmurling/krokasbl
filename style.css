@@ -53,6 +53,14 @@
     justify-content: center;
 }
 
+.tlo_bezowe_1{
+    background-color: #CDDDDD;
+}
+
+.tlo_bezowe_2{
+    background-color: #DDF0FF;
+}
+
 .flaga{
     height: 30px;
 }
