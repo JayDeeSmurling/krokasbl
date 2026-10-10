@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-
-# Blokada plików technicznych i prywatnych materiałów do pobrania
-Disallow: /public_share/
-
-# Wskazanie mapy strony
-Sitemap: https://www.krokasbl.org/sitemap.xml

@@ -1,8 +1,0 @@
-# ai.txt - Polityka wykorzystania treści przez modele AI dla krokasbl.org
-
-User-agent: *
-# Zezwolenie na wyszukiwanie i podsumowywanie informacji o stowarzyszeniu
-Allow: /
-
-# Zablokowanie trenowania modeli na treściach strony
-# Training: no
