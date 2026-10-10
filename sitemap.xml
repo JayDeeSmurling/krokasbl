@@ -14,9 +14,9 @@
     <url>
         <loc>https://www.krokasbl.org/pl/aktualnosci.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/aktualnosci.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/nieuws.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/actualites.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/news.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/nieuws.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/actualites.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/news.html" />
         <priority>1.0</priority>
     </url>
 
@@ -24,9 +24,9 @@
     <url>
         <loc>https://www.krokasbl.org/pl/czlonkostwo.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/czlonkostwo.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/lid.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/adhesion.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/membership.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/lid.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/adhesion.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/membership.html" />
         <priority>1.0</priority>
     </url>
 
@@ -34,9 +34,9 @@
     <url>
         <loc>https://www.krokasbl.org/pl/firmy-i-instytucje.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/firmy-i-instytucje.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/bedrijven.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/Entreprises-et-institutions.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/companies-and-institutions.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/bedrijven.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/Entreprises-et-institutions.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/companies-and-institutions.html" />
         <priority>1.0</priority>
     </url>
 
@@ -44,9 +44,9 @@
     <url>
         <loc>https://www.krokasbl.org/pl/informacje-prawne.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/informacje-prawne.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/wettelijke-verklaring.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/mentions-legales.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/legal.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/wettelijke-verklaring.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/mentions-legales.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/legal.html" />
         <priority>1.0</priority>
     </url>
 
@@ -54,9 +54,9 @@
     <url>
         <loc>https://www.krokasbl.org/pl/kontakt.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/kontakt.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/contact.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/contact.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/contact.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/contact.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/contact.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/contact.html" />
         <priority>1.0</priority>
     </url>
 
@@ -64,9 +64,9 @@
     <url>
         <loc>https://www.krokasbl.org/pl/nasze-dzialania.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/nasze-dzialania.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/onze-activiteiten.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/nos-actions.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/our-activities.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/onze-activiteiten.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/nos-actions.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/our-activities.html" />
         <priority>1.0</priority>
     </url>
     
@@ -74,9 +74,9 @@
         <url>
         <loc>https://www.krokasbl.org/pl/o-nas.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/o-nas.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/over-ons.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/a-propos.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/about-us.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/over-ons.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/a-propos.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/about-us.html" />
         <priority>1.0</priority>
     </url>
 
@@ -84,9 +84,9 @@
             <url>
         <loc>https://www.krokasbl.org/pl/polityka-cookies.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/polityka-cookies.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/cookies-policy.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/politique-cookies.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/cookie-policy.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/cookies-policy.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/politique-cookies.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/cookie-policy.html" />
         <priority>1.0</priority>
     </url>
 
@@ -95,9 +95,9 @@
                <url>
         <loc>https://www.krokasbl.org/pl/polityka-prywatnosci.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/polityka-prywatnosci.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/privacy-policy.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/Politique-de-confidentialite.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/privacy-policy.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/privacy-policy.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/Politique-de-confidentialite.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/privacy-policy.html" />
         <priority>1.0</priority>
     </url>
 
@@ -105,9 +105,9 @@
                    <url>
         <loc>https://www.krokasbl.org/pl/wesprzyj-nas.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/wesprzyj-nas.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/steun.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/soutenez.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/support-us.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/steun.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/soutenez.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/support-us.html" />
         <priority>1.0</priority>
     </url>
 
@@ -115,9 +115,9 @@
                        <url>
         <loc>https://www.krokasbl.org/pl/wolontariat.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/wolontariat.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/vrijwilligerswerk.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/benevolat.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/volunteer.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/vrijwilligerswerk.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/benevolat.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/volunteer.html" />
         <priority>1.0</priority>
     </url>
 
@@ -125,9 +125,9 @@
                            <url>
         <loc>https://www.krokasbl.org/pl/wydarzenia.html</loc>
         <xhtml:link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/wydarzenia.html" />
-        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/NL/onze-activiteiten.html" />
-        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/FR/evenements.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/EN/events.html" />
+        <xhtml:link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/onze-activiteiten.html" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/evenements.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/events.html" />
         <priority>1.0</priority>
     </url>
 </urlset>
