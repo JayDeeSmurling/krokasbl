@@ -4,40 +4,51 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Podstawowe SEO -->
-        <title>Événements de la communauté polonaise en Belgique | CENTRE DE LA CULTURE POLONAISE KROK ASBL</title>
+        <!-- SEO de base -->
+        <title>Le drapeau polonais à Koekelberg – Fête nationale de l'indépendance | CENTRE DE LA CULTURE POLONAISE KROK ASBL</title>
         <meta
             name="description"
-            content="Découvrez les événements à venir, ateliers éducatifs, rencontres culturelles et moments d'intégration organisés par KROK ASBL en Belgique. Consultez notre agenda !" />
+            content="Célébrons ensemble la Fête nationale de l'indépendance à Koekelberg ! Le 11 novembre à 12h30 sur la place Vanhuffel : lever du drapeau polonais, hymne national, dépôt de fleurs et dégustation de chocolat avec le Belgian Chocolate Village." />
         <meta
             name="keywords"
-            content="événements polonais Belgique, rencontres polonaises Bruxelles, ateliers pour enfants, concerts polonais Belgique, culture polonaise Bruxelles, KROK ASBL" />
+            content="Fête de l'indépendance Pologne Belgique, drapeau polonais Koekelberg, 11 novembre Bruxelles, communauté polonaise Belgique, place Vanhuffel, KROK ASBL, Olivia P'Tito, Piotr Adamiuk, Belgian Chocolate Village" />
         <meta name="author" content="CENTRE DE LA CULTURE POLONAISE KROK ASBL" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.krokasbl.org/fr/evenements.html" />
+        <link rel="canonical" href="https://www.krokasbl.org/fr/a_2026_11_swieto_niepodleglosci.html" />
+
+        <!-- Balises multilingues (hreflang) -->
+        <link rel="alternate" hreflang="pl" href="https://www.krokasbl.org/pl/a_2026_11_swieto_niepodleglosci.html" />
+        <link rel="alternate" hreflang="fr" href="https://www.krokasbl.org/fr/a_2026_11_swieto_niepodleglosci.html" />
+        <link rel="alternate" hreflang="nl" href="https://www.krokasbl.org/nl/a_2026_11_swieto_niepodleglosci.html" />
+        <link rel="alternate" hreflang="en" href="https://www.krokasbl.org/en/a_2026_11_swieto_niepodleglosci.html" />
+        <link rel="alternate" hreflang="x-default" href="https://www.krokasbl.org/pl/a_2026_11_swieto_niepodleglosci.html" />
 
         <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.krokasbl.org/fr/evenements.html" />
-        <meta property="og:title" content="Événements – CENTRE DE LA CULTURE POLONAISE KROK ASBL" />
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Centre de la Culture Polonaise KROK ASBL" />
+        <meta property="og:url" content="https://www.krokasbl.org/fr/a_2026_11_swieto_niepodleglosci.html" />
+        <meta property="og:title" content="🇵🇱 Le drapeau polonais à Koekelberg – Fête nationale de l'indépendance 🕊️" />
         <meta
             property="og:description"
-            content="Découvrez les prochains événements et rencontres culturelles organisés par KROK ASBL en Belgique. Rejoignez-nous !" />
-        <meta property="og:image" content="img/krok_v2.svg" />
+            content="Le 11 novembre à 12h30, hissons ensemble le drapeau blanc et rouge et entonnons l'hymne national sur la place Vanhuffel à Koekelberg. Rejoignez les célébrations avec KROK ASBL !" />
+        <meta property="og:image" content="https://www.krokasbl.org/img/w_2026_11_swieto_niepodleglosci.jpg" />
+        <meta property="og:image:alt" content="Cérémonie de lever du drapeau polonais à Koekelberg" />
         <meta property="og:locale" content="fr_BE" />
+        <meta property="article:published_time" content="2026-11-06T10:00:00+01:00" />
+        <meta property="article:author" content="CENTRE DE LA CULTURE POLONAISE KROK ASBL" />
+        <meta property="article:section" content="Culture et Événements" />
 
         <!-- Twitter Cards -->
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Événements – KROK ASBL" />
+        <meta name="twitter:title" content="Le drapeau polonais à Koekelberg – 11 novembre | KROK ASBL" />
         <meta
             name="twitter:description"
-            content="Découvrez les prochains événements et rencontres culturelles organisés par KROK ASBL en Belgique. Rejoignez-nous !" />
-        <meta name="twitter:image" content="img/krok_v2.svg" />
+            content="Célébrons ensemble la Fête nationale de l'indépendance sur la place Vanhuffel à Koekelberg. Début de la cérémonie à 12h30 !" />
+        <meta name="twitter:image" content="https://www.krokasbl.org/img/w_2026_11_swieto_niepodleglosci.jpg" />
 
         <!-- Bootstrap 5 CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="../style.css" rel="stylesheet" />
-        <style></style>
     </head>
     <body>
         <!-- Nawigacja -->
@@ -244,59 +255,5 @@
         <!-- Bootstrap 5 JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-        <!-- Skrypty galerii -->
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const thumbs = Array.from(document.querySelectorAll("#dziadyGalleryGrid .gallery-thumb-img"));
-                const modalEl = document.getElementById("dziadyLightboxModal");
-                if (!modalEl || thumbs.length === 0) return;
-
-                const bsModal = new bootstrap.Modal(modalEl);
-                const lightboxImg = document.getElementById("lightboxActiveImg");
-                const counterEl = document.getElementById("lightboxCounter");
-                const prevBtn = document.getElementById("lightboxPrevBtn");
-                const nextBtn = document.getElementById("lightboxNextBtn");
-
-                let activeIndex = 0;
-
-                function updateLightbox(index) {
-                    if (index < 0) index = thumbs.length - 1;
-                    if (index >= thumbs.length) index = 0;
-
-                    activeIndex = index;
-                    lightboxImg.src = thumbs[activeIndex].src;
-                    lightboxImg.alt = thumbs[activeIndex].alt;
-                    if (counterEl) {
-                        counterEl.textContent = `${activeIndex + 1} / ${thumbs.length}`;
-                    }
-                }
-
-                // Kliknięcie w miniaturkę otwiera modal na konkretnym indeksie
-                thumbs.forEach((img, i) => {
-                    img.addEventListener("click", function () {
-                        updateLightbox(i);
-                        bsModal.show();
-                    });
-                });
-
-                // Przyciski Poprzednie / Następne
-                prevBtn.addEventListener("click", (e) => {
-                    e.stopPropagation();
-                    updateLightbox(activeIndex - 1);
-                });
-
-                nextBtn.addEventListener("click", (e) => {
-                    e.stopPropagation();
-                    updateLightbox(activeIndex + 1);
-                });
-
-                // Nawigacja strzałkami na klawiaturze, gdy modal jest otwarty
-                document.addEventListener("keydown", function (e) {
-                    if (!modalEl.classList.contains("show")) return;
-                    if (e.key === "ArrowLeft") updateLightbox(activeIndex - 1);
-                    if (e.key === "ArrowRight") updateLightbox(activeIndex + 1);
-                });
-            });
-        </script>
     </body>
 </html>
